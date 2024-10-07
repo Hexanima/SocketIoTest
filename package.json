@@ -1,0 +1,10 @@
+{
+  "name": "SocketIoTest",
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 512px;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.Connections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.Buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+button {
+  background-color: lightsalmon;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+button:active {
+  background-color: brown;
+}
+
+form {
+  display: flex;
+  gap: 0.25rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
